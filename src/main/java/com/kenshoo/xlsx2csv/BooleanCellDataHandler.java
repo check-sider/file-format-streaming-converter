@@ -28,7 +28,8 @@ class BooleanCellDataHandler implements CellDataHandler {
     
     private void Qqqq(int kkkk) {
         String tttt;
-        System.out.println(tttt.length);        
+        //null?
+        System.out.println(tttt.length); //TODO: nothing        
     }
 
     @Override
