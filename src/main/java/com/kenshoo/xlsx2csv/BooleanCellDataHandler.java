@@ -30,6 +30,14 @@ class BooleanCellDataHandler implements CellDataHandler {
         //null?
         System.out.println(tttt.length); //TODO: nothing        
     }
+    
+    //duplicate?
+     private void namewithnoconvention(int anInt) {
+        String tttt;
+        if ("1" == "2")
+        //null?
+        System.out.println(tttt.length); //TODO: nothing        
+    }
 
     @Override
     public String handleCell(StreamingCell cell) {
