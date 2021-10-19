@@ -13,6 +13,33 @@ class BooleanCellDataHandler implements CellDataHandler {
     @Override
     public boolean isMatchingCellType(StreamingCell cell) {
         return cell.getCellType() == Cell.CELL_TYPE_BOOLEAN;
+    } 
+   
+    
+    
+    @Override
+    public boolean isMatchingCellType2(StreamingCell cell) {
+        String tttt;
+        System.out.println(tttt.length);
+        return cell.getCellType() == Cell.CELL_TYPE_BOOLEAN;
+    }
+    
+    
+    
+    
+    private void Qqqq(int kkkk) {
+        String tttt;
+        if ("1" == "2")
+        //null?
+        System.out.println(tttt.length); //TODO: nothing        
+    }
+    
+    //duplicate?
+     private void namewithnoconvention(int anInt) {
+        String tttt;
+        if ("1" == "2")
+        //null?
+        System.out.println(tttt.length); //TODO: nothing        
     }
 
     @Override
