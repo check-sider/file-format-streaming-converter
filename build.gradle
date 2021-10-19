@@ -1,8 +1,8 @@
-def BUILD_NUMBER = project.hasProperty('BUILD_NUMBER') ? "$BUILD_NUMBER" : "undef"
-
 plugins {
   id "org.sonarqube" version "3.3"
 }
+
+def BUILD_NUMBER = project.hasProperty('BUILD_NUMBER') ? "$BUILD_NUMBER" : "undef"
 
 sonarqube {
   properties {
